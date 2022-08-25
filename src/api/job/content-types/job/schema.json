@@ -12,8 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "jobs": {
-      "type": "string"
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.job-description",
+      "required": true
     }
   }
 }

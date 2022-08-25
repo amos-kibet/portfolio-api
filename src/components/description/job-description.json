@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_description_job_descriptions",
+  "info": {
+    "displayName": "job_description",
+    "icon": "id-card-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
