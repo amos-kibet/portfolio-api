@@ -13,23 +13,27 @@
   "pluginOptions": {},
   "attributes": {
     "stack": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "info": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

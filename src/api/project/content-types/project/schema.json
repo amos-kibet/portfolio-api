@@ -13,29 +13,35 @@
   "pluginOptions": {},
   "attributes": {
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "github": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "stack": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }
