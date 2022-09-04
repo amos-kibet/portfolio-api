@@ -1,5 +1,15 @@
 # 🚀 Getting started
 
+### `build`
+
+Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
+
+```
+npm run build
+# or
+yarn build
+```
+
 ### `develop`
 
 Start your application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
@@ -18,16 +28,6 @@ Start your application with autoReload disabled. [Learn more](https://docs.strap
 npm run start
 # or
 yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
-
-```
-npm run build
-# or
-yarn build
 ```
 
 ## ⚙️ Deployment
